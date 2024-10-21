@@ -1,0 +1,73 @@
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5; /* Light background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+    .navbar ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+        .navbar ul li {
+            padding: 14px 20px;
+        }
+
+            .navbar ul li a {
+                color: white;
+                text-decoration: none;
+                font-size: 18px;
+            }
+
+                .navbar ul li a:hover {
+                    background-color: #575757;
+                    color: white;
+                    padding: 14px 20px;
+                }
+
+    /* Logo */
+    .navbar img {
+        height: 50px;
+        margin-right: 20px;
+    }
+
+/* Content Wrapper */
+.content {
+    padding: 20px;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+    /* Links styling for the privacy policy pages */
+    .content a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+
+        .content a:hover {
+            text-decoration: underline;
+        }
